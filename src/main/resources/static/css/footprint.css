@@ -93,6 +93,9 @@
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
 }
 
 .footprint-logo {
@@ -152,6 +155,22 @@
 .logo-container.show .footprint-slogan {
     opacity: 1;
     transform: translateY(0);
+}
+
+.logo-container.show .footprint-slogan a {
+    color: #d22a2a;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.logo-container.show .footprint-slogan a:hover,
+.logo-container.show .footprint-slogan a:focus {
+    color: #4299e1;
+    text-decoration: underline;
+}
+
+.logo-container.show .footprint-slogan a:active {
+    color: #1a365d;
 }
 
 .footprint-slogan::before {
