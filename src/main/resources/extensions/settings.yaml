@@ -68,9 +68,10 @@ spec:
           validation: required
           value: '足迹'
           help: "这里是左下角的标题"
-        - $formkit: text
+        - $formkit: code
           label: 足迹描述
           name: describe
+          height: 300px
           validation: required
           value: '每一处足迹都充满了故事，那是对人生的思考和无限的风光。'
           help: "这里是左下角的描述"
